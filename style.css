@@ -1,0 +1,54 @@
+ /* img{
+    max-width: 200px;
+    height: 0 auto;
+    border-width: 2px 5px 2px 5px;
+    border-style: solid;
+    border-color: gray aquamarine gray aquamarine;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 100px; */
+
+ img{
+    max-width: 200px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+   position: relative;
+   animation-name: img-isMa;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+ /* img:hover{
+    animation-name: img-isMa;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}  */
+@keyframes img-isMa{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 100px;
+        left: 0;
+        opacity: 0.5;
+    }
+    100%{
+        top: 0px;
+        left: 0;
+    }
+    
+}
+    /* from{
+    border: 5px solid aqua;
+        
+    }
+    to{
+        border: 5px solid greenyellow;
+    }
+}  */
